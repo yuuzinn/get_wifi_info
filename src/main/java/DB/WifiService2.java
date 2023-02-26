@@ -26,7 +26,7 @@ public class WifiService2 {
 		System.out.print(x + " : " + y);
 		List<Wifi_Info> list = new ArrayList<>();
 		List<Wifi_Info> result = new ArrayList<>();
-		String url = "jdbc:mariadb://220.86.74.248:3306/testdb2";
+		String url = "jdbc:mariadb://myIP:3306/testdb2";
 		String dbUserId = "testuser1";
 		String dbPassword = "1111";
 
@@ -118,7 +118,7 @@ public class WifiService2 {
 
 		List<Wifi_Info> list = new ArrayList<>();
 
-		String url = "jdbc:mariadb://220.86.74.248:3306/testdb2";
+		String url = "jdbc:mariadb://myIP:3306/testdb2";
 		String dbUserId = "testuser1";
 		String dbPassword = "1111";
 
