@@ -139,7 +139,7 @@ public class WifiHistoryService {
 
 	public void historyInsert(Double x, Double y) {
 
-		String url = "jdbc:mariadb://220.86.74.248:3306/testdb2";
+		String url = "jdbc:mariadb://myIP:3306/testdb2";
 		String dbUserId = "testuser1";
 		String dbPassword = "1111";
 
